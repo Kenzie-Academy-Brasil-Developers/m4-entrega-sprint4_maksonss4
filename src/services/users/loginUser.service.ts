@@ -1,5 +1,5 @@
 import { IUserLogin } from "../../interfaces/users";
-import AppDataSource from "../../data-source";
+import AppDataSource from "../../database/data-source";
 import { User } from "../../entities/user.entity";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";

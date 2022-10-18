@@ -1,4 +1,4 @@
-import AppDataSource from "../../data-source";
+import AppDataSource from "../../database/data-source";
 import { User } from "../../entities/user.entity";
 import { IUserNoPassword } from "../../interfaces/users";
 

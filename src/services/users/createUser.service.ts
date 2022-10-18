@@ -1,6 +1,6 @@
 import { User } from "../../entities/user.entity";
 import { IUserCreate, IUserNoPassword } from "../../interfaces/users";
-import AppDataSource from "../../data-source";
+import AppDataSource from "../../database/data-source";
 
 export async function createUserService(newUser: IUserCreate) {
   const { createdAt, email, isActive, isAdm, name, password, updatedAt } =
